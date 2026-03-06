@@ -5,3 +5,7 @@ provider "aws" {
 provider "github" {
   owner = "onecx"
 }
+
+module "onecx-file-storage" {
+  source = "./products/onecx-file-storage"
+}
