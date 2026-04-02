@@ -9,3 +9,7 @@ provider "github" {
 module "onecx-file-storage" {
   source = "./products/onecx-file-storage"
 }
+
+module "onecx-document" {
+  source = "./products/onecx-document"
+}
