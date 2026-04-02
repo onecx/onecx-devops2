@@ -11,5 +11,5 @@ module "onecx-file-storage" {
 }
 
 module "onecx-document" {
-  source = "./products/document"
+  source = "./products/onecx-document"
 }
