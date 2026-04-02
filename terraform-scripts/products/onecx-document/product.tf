@@ -10,7 +10,7 @@ module "onecx-document-team" {
 module "onecx-document" {
   source = "../../modules/product"
   repository_name        = "onecx-document"
-  repository_description = "OneCX File Storage"
+  repository_description = "OneCX Document"
   homepage_url           = "https://onecx.github.io/docs/onecx-document/current/general"
   topics                 = ["product", "document", "s3"]
   team_id                = module.onecx-document-team.team_id
