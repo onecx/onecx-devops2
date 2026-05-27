@@ -13,3 +13,7 @@ module "onecx-file-storage" {
 module "onecx-document" {
   source = "./products/onecx-document"
 }
+
+module "onecx-generator" {
+  source = "./products/onecx-generator"
+}
