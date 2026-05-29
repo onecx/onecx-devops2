@@ -11,6 +11,7 @@ module "repository" {
   project_repo           = true
   archived               = var.archived
   auto_merge             = var.auto_merge
+  visibility             = var.visibility
 }
 
 # GITHUB REPOSITORY BRANCHES/PATTERNS
