@@ -68,6 +68,17 @@ variable "auto_merge" {
   default = true
 }
 
+variable "visibility" {
+  description = "Can be public or private. If not specified, defaults to public."
+  type = string
+  default = "public"
+
+  validation {
+    condition     = contains(["public", "private", "internal"], var.visibility)
+    error_message = "Visibility must be either 'public', 'private', or 'internal'."
+  }
+}
+
 variable "homepage_url" {
   description = "URL of a page describing the project"
   type        = string
