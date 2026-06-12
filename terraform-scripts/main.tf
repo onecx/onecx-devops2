@@ -18,6 +18,3 @@ module "onecx-generator" {
   source = "./products/onecx-generator"
 }
 
-module "onecx-ai-workflows" {
-  source = "./products/onecx-ai-workflows"
-}
