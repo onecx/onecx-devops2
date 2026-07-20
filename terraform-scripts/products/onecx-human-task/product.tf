@@ -48,12 +48,12 @@ module "onecx-human-task-ui" {
 }
 
 
-# ONECX-HUMAN-TASK-CAMUNDA-ADAPTER
-module "onecx-human-task-camunda-adapter" {
+# ONECX-HUMAN-TASK-CAMUNDA
+module "onecx-human-task-camunda" {
   source = "../../modules/quarkus"
-  repository_name        = "onecx-human-task-camunda-adapter"
+  repository_name        = "onecx-human-task-camunda"
   repository_description = "OneCX Human Tasks Camunda Adapter"
-  homepage_url           = "https://onecx.github.io/docs/onecx-human-task/current/onecx-human-task-camunda-adapter"
-  topics                 = ["java", "quarkus", "human-task", "adapter", "camunda"]
+  homepage_url           = "https://onecx.github.io/docs/onecx-human-task/current/onecx-human-task-camunda"
+  topics                 = ["java", "quarkus", "human-task", "camunda"]
   team_id                = module.onecx-human-task-team.team_id
 }
