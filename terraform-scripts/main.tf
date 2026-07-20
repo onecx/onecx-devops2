@@ -18,3 +18,7 @@ module "onecx-generator" {
   source = "./products/onecx-generator"
 }
 
+module "onecx-human-tasks" {
+  source = "./products/onecx-human-tasks"
+}
+
